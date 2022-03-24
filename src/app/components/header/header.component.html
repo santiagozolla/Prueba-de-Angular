@@ -1,4 +1,9 @@
 <header>
     <h1>{{title}}</h1>
-    <app-boton color="green" text="Agregar Tarea"></app-boton>
+    <app-boton 
+        color="green" 
+        text="Agregar Tarea"
+        (btnClick)="toggleAddTask()"
+    >
+    </app-boton>
 </header>

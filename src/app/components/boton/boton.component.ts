@@ -16,7 +16,7 @@ export class BotonComponent implements OnInit {
   }
 
   onClick(){
-    console.log("Click");
+    this.btnClick.emit();
   }
 
 }
